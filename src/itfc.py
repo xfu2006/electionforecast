@@ -90,9 +90,32 @@ class MLFramework(ABC):
 
 # abstract class for building up the input data
 # e.g., retrieve data from Twitter
+# WILL have additional processing POWER
 class DataRetriever(ABC):
 	# need to return an instance of MLData
 	@abstractmethod
 	def retrieve_data(self, start_date, end_date):
 		pass;
+
+# abstract class for RAW data reader 
+# JUST return RAW TEXT of tweets or information without further processing
+class RawDataReader(ABC):
+	# need to return an ARRAY of the following (array of TUPLES of two elements
+	# [(time_stamp, RAW_STRING (e.g., tweet))]
+	# e.g. [
+	# 		('01/09/2020 12:00:05pm', 'tweet raw string: trump is great'),
+	# 		('01/09/2020 12:00:06pm', 'tweet raw string: trump is great'),
+	#		]
+	@abstractmethod
+	def get_raw_data(self, start_date, end_date):
+		return [];
+
+
+
+
+
+
+
+
+
 

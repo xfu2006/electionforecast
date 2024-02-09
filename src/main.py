@@ -14,14 +14,4 @@ pred = ml.predict(model, model);
 print("Dummy prediction is: " + str(pred));
 
 
-# TODO LIST
-# 1. manually define a dummy class (expanding it) the list of
-# features and some "real sense" input data several dozens of rows
-
-# 2. real model: search for multi-column timeseries forecast in
-# sci-learn
-
-# 3. group research twitter API (I blieve the streaming API is free)
-# implementing the DataRetriever child class.:w
-
 
