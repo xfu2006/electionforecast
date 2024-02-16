@@ -13,6 +13,9 @@ https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ve
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiMiJC_wp6EAxXKFVkFHSJFDoIQFnoECBUQAQ&url=https%3A%2F%2Fwww.cnn.com%2Felection%2F2020%2Fexit-polls%2Fpresident%2Fnational-results&usg=AOvVaw2q6OIKJwslty74JwC2ltjY&opi=899784494
 
 ================================================
+02/16/2024: 
+Added a small RawDataReader for Kaw set as an example
+================================================
 TODO: 02/09/2024 week
 *** every one creates a DERIVED class of RawDataReader
 *** NAME consistency of model between py and .txt file
