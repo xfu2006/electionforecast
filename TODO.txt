@@ -10,7 +10,9 @@ https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ve
 (3) 2020 Presidential Election Polls:
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiMiJC_wp6EAxXKFVkFHSJFDoIQFnoECA4QAQ&url=https%3A%2F%2Fwww.270towin.com%2F2020-polls-biden-trump%2F&usg=AOvVaw1IU2Ymj5mfT6yDKFvgY-RA&opi=899784494
 (4) CNN Poll:
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiMiJC_wp6EAxXKFVkFHSJFDoIQFnoECBUQAQ&url=https%3A%2F%2Fwww.cnn.com%2Felection%2F2020%2Fexit-polls%2Fpresident%2Fnational-results&usg=AOvVaw2q6OIKJwslty74JwC2ltjY&opi=89978449
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiMiJC_wp6EAxXKFVkFHSJFDoIQFnoECBUQAQ&url=https%3A%2F%2Fwww.cnn.com%2Felection%2F2020%2Fexit-polls%2Fpresident%2Fnational-results&usg=AOvVaw2q6OIKJwslty74JwC2ltjY&opi=899784494
+
+================================================
 TODO: 02/09/2024 week
 *** every one creates a DERIVED class of RawDataReader
 *** NAME consistency of model between py and .txt file
