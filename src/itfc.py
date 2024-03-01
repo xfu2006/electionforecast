@@ -97,6 +97,30 @@ class DataRetriever(ABC):
 	def retrieve_data(self, start_date, end_date):
 		pass;
 
+	# from the raw_data returned by the data reader
+	# process by DAY (e.g., 1000 tweets in a specific day)
+	# extract features
+	# e.g., returns data like
+	#    date          support_rate    dislike_rate
+	# [
+	#   ['01/01/2024', 0.9,             0.05     ],
+	#   ['01/02/2024', 0.85,            0.05     ],
+	# ]
+	@abstractmethod
+	def build_data(self, raw_data):
+		# you should call SentimentalAnalyzer class to
+		# rate each tweet, and aggregate the stats data.
+		pass;
+
+	# given the data returned by build_data, save to file
+	@abstractmethod
+	def save_data_to(self, processed_data, filename):
+		pass;
+
+	#abstractmethod
+	def load_data_from(self, filename):
+		pass;
+
 # abstract class for RAW data reader 
 # JUST return RAW TEXT of tweets or information without further processing
 class RawDataReader(ABC):
@@ -109,6 +133,15 @@ class RawDataReader(ABC):
 	@abstractmethod
 	def get_raw_data(self, start_date, end_date):
 		return [];
+
+
+# analyzer of sentimental analysis
+class AbstractSentimentAnalyzer(ABC):
+	# return a score between 0.0 (hate) to 1.0 (support), 0.5 for neutral
+	@abstractmethod
+	def sentiment_analyze(self, txt, topic):
+		return 0.5;
+
 
 
 

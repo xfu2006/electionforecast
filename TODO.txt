@@ -12,6 +12,16 @@ https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ve
 (4) CNN Poll:
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiMiJC_wp6EAxXKFVkFHSJFDoIQFnoECBUQAQ&url=https%3A%2F%2Fwww.cnn.com%2Felection%2F2020%2Fexit-polls%2Fpresident%2Fnational-results&usg=AOvVaw2q6OIKJwslty74JwC2ltjY&opi=899784494
 
+++ Brandon: please list the DATA SET url BELOW (and speically
+note the license/restrictions).
+++ Nicole: work on the Poll Data set (used for calibration). Find one
+which has as much data as possible (better for each state, with higher
+frequencies). In general, it's regular expression parsing of a web page.
+++ Artem: to continue investigate the live data source (for this year)
+ --> better for free. (hint: twitter might no be possible.
+ 	find altnertaive like twitter (like reddit)
+	"live data feed" )
+
 ================================================
 02/16/2024: 
 Added a small RawDataReader for Kaw set as an example
@@ -25,4 +35,12 @@ TODO: 02/09/2024 week
 
 # 3. group research twitter API (I blieve the streaming API is free)
 # implementing the DataRetriever child class.:w
+
+===========================
+03/01/2024:
+Next task: add sentimental analsis
+==========================
+Read: https://www.datacamp.com/tutorial/text-analytics-beginners-nltk
+# We need one person to work on ONE child class of the AbstractSentimantAnalyzer
+# hints: use NTLK package directly.
 
