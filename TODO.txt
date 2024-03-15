@@ -43,4 +43,7 @@ Next task: add sentimental analsis
 Read: https://www.datacamp.com/tutorial/text-analytics-beginners-nltk
 # We need one person to work on ONE child class of the AbstractSentimantAnalyzer
 # hints: use NTLK package directly.
+-> Next week: I'll COMPLETE the entire NTLK package and put it into
+-> a CONCRETE instantance of data retriever
+--> I'll show how to do unit testing.
 
